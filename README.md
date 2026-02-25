@@ -27,9 +27,15 @@ This project performs end-to-end data cleaning and exploratory data analysis (ED
 - Produced analysis-ready data for segmentation and retention use cases
 
 ## Repository Structure
-- `data/` – Raw and cleaned datasets  
-- `notebooks/` – Data cleaning and EDA notebook  
-- `visuals/` – Generated plots (optional)  
+ Customer-Behaviour-Analysis/
+│
+├── data/
+├── notebooks/
+│   └── analysis.ipynb
+├── dashboard/
+├── images/
+├── requirements.txt
+└── README.md
 
 ## How to Run
 1. Install dependencies from `requirements.txt`
