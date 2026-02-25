@@ -1,4 +1,4 @@
-# Customer-Behaviour-Analysis
+# Customer-Behaviour-Analysis :-“Analyze customer purchase behavior to identify high-value segments, revenue drivers, and retention opportunities.”
 ## Overview
 This project performs end-to-end data cleaning and exploratory data analysis (EDA) on a large customer transactions dataset to uncover spending patterns and customer behavior trends. The analysis supports customer segmentation and retention-focused insights.
 
