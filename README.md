@@ -32,11 +32,28 @@ An interactive dashboard was built using Streamlit and Python.
 - Streamlit
 
 ---
-
+Customer-Behavior-Analysis/
+│
+├── data/
+│   ├── raw/
+│   │   └── customer_transactions_raw.csv
+│   └── processed/
+│       └── customer_transactions_processed.csv
+│
+├── dashboard/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── customer_transactions_processed.csv
+│
+├── notebooks/
+│   └── customer_behavior_analysis.ipynb
+│
+├── visuals/
+│   └── screenshots
+│
+└── README.md
 ## 📂 Project Structure
-- app.py → Dashboard application
-- customer_transactions_processed.csv → Dataset
-- requirements.txt → Dependencies
+
 
 ---
 
