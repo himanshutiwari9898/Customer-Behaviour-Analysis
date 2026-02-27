@@ -13,7 +13,7 @@ st.title("📊 Customer Behavior Analysis Dashboard")
 # -----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../data/processed/customer_transactions_processed.csv")
+    df = pd.read_csv("customer_transactions_processed.csv")
     df["TransactionDate"] = pd.to_datetime(df["TransactionDate"])
     df["TotalAmount"] = pd.to_numeric(df["TotalAmount"], errors="coerce")
     df["Quantity"] = pd.to_numeric(df["Quantity"], errors="coerce")
@@ -185,4 +185,5 @@ st.plotly_chart(fig, use_container_width=True)
 customer_rev = df.groupby("CustomerID")["TotalAmount"].sum().reset_index()
 fig = px.box(customer_rev, y="TotalAmount", title="Customer Revenue Distribution")
 st.plotly_chart(fig, use_container_width=True)
+
 
