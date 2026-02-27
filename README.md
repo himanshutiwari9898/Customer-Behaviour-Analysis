@@ -1,43 +1,47 @@
-# Customer-Behaviour-Analysis :-“Analyze customer purchase behavior to identify high-value segments, revenue drivers, and retention opportunities.”
-## Overview
-This project performs end-to-end data cleaning and exploratory data analysis (EDA) on a large customer transactions dataset to uncover spending patterns and customer behavior trends. The analysis supports customer segmentation and retention-focused insights.
+# 📊 Customer Behavior Analytics Dashboard
 
-## Dataset
-- 50,000+ customer transaction records
-- Raw dataset includes missing values, duplicates, inconsistent categories, and outliers
-- Cleaned dataset is generated through a structured data cleaning pipeline
+## 🚀 Project Overview
+This project analyzes customer transaction data to uncover business insights including:
 
-## Tools & Technologies
+- Revenue trends over time
+- Product category performance
+- Country-wise revenue distribution
+- Customer purchasing behavior
+- Top 10 revenue-generating customers
+- Purchase frequency patterns
+- Payment method distribution
+
+An interactive dashboard was built using Streamlit and Python.
+
+---
+
+## 📈 Key Insights
+- Revenue trend analysis reveals growth patterns.
+- Revenue is concentrated among top customers.
+- Certain product categories drive majority of sales.
+- Customer purchase frequency is skewed.
+- Payment preferences vary across customers.
+
+---
+
+## 🛠️ Tech Stack
 - Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Jupyter Notebook
+- Pandas
+- Matplotlib
+- Plotly
+- Streamlit
 
-## Project Workflow
-1. Load and inspect raw transactional data  
-2. Identify data quality issues (nulls, duplicates, outliers)  
-3. Clean and standardize the dataset  
-4. Perform exploratory data analysis (EDA)  
-5. Generate insights related to customer behavior and spending patterns  
+---
 
-## Key Outcomes
-- Identified high-value customers and skewed spending distribution
-- Analyzed category-wise revenue contribution
-- Uncovered seasonal trends in customer purchases
-- Produced analysis-ready data for segmentation and retention use cases
+## 📂 Project Structure
+- app.py → Dashboard application
+- customer_transactions_processed.csv → Dataset
+- requirements.txt → Dependencies
 
-## Repository Structure
- Customer-Behaviour-Analysis/
-│
-├── data/
-├── notebooks/
-│   └── analysis.ipynb
-├── dashboard/
-├── images/
-├── requirements.txt
-└── README.md
+---
 
-## How to Run
-1. Install dependencies from `requirements.txt`
-2. Open the notebook in Jupyter
-3. Run all cells from top to bottom
+## ▶️ How to Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
